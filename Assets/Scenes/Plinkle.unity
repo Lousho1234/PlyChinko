@@ -481,6 +481,7 @@ GameObject:
   - component: {fileID: 306994245}
   - component: {fileID: 306994244}
   - component: {fileID: 306994246}
+  - component: {fileID: 306994247}
   m_Layer: 0
   m_Name: Wall bottom
   m_TagString: Untagged
@@ -573,7 +574,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ea23b1846d5d934498953792d8501833, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -609,6 +610,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &306994247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306994243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab375a9dddcdc62409f2705eb347dd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallDestroyer
 --- !u!1 &401407201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,7 +1746,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ea23b1846d5d934498953792d8501833, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2399,7 +2412,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ea23b1846d5d934498953792d8501833, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
